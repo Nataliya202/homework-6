@@ -397,10 +397,10 @@
                 
                 <div class="form-footer-field">
                     <p class="input-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>  
-                    <div class="email-lot">
+                    <form class="form-email-lot">
                           <input type="email" name="email" placeholder="E-mail">
                           <button type="submit" class="submit-btn">Підписатися</button> 
-                    </div>
+                    </form>
                 </div>      
             </div>
         </footer>
@@ -416,42 +416,36 @@
                 
                 <form class="form">
                     <label class="form-field">
-                        <span class="form-field-discription">Ім'я</span>
-                        <span class="option">
-                            <input type="text" class="form-input" name="text" required>
-                            <svg class="modal-icon" width="18" height="18">
-                              <use href="./images/sprite.svg#icon-person"></use>
-                            </svg>  
-                        </span>
+                        Ім'я
+                        <input type="text" class="form-input" name="text" required>
+                        <svg class="modal-icon" width="18" height="18">
+                         <use href="./images/sprite.svg#icon-person"></use>
+                        </svg>  
                     </label>  
 
                     <label class="form-field">
-                        <span class="form-field-discription">Телефон</span>
-                        <span class="option">
-                            <input type="tel" class="form-input" name="tel" required>
-                            <svg class="modal-icon" width="18" height="18">
-                             <use href="./images/sprite.svg#icon-phonemod"></use>
-                            </svg>
-                        </span>
+                        Телефон         
+                        <input type="tel" class="form-input" name="tel" required>
+                        <svg class="modal-icon" width="18" height="18">
+                         <use href="./images/sprite.svg#icon-phonemod"></use>
+                        </svg>  
                     </label>
 
                     <label class="form-field">
-                        <span class="form-field-discription">Пошта</span>
-                        <span class="option">
-                            <input type="email" class="form-input" name="email" required>
-                            <svg class="modal-icon" width="18" height="18">
-                             <use href="./images/sprite.svg#icon-emailmod"></use>
-                            </svg>
-                        </span>
+                        Пошта
+                        <input type="email" class="form-input" name="email" required>
+                        <svg class="modal-icon" width="18" height="18">
+                         <use href="./images/sprite.svg#icon-emailmod"></use>
+                        </svg>
                     </label> 
 
                     <label class="form-field">
-                        <span class="form-field-discription">Коментар</span>
+                        Коментар
                         <textarea class="comment" name="comment" placeholder="Введіть текст"></textarea>
                     </label>
 
                     <label class="form-field-checkbox-label">
-                        <input type="checkbox" class="checkbox-policy visually-hidden" name="policy">
+                        <input type="checkbox" class="checkbox-policy" name="policy" required>
                         <span class="checkbox-icon"></span>
                         Погоджуюся з розсилкою та приймаю <span class="accent"> Умови договору</span>
                     </label>
